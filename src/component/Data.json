@@ -1,0 +1,1354 @@
+[
+  {
+    "company_img": "https://images.moneycontrol.com/static-mcnews/2022/05/IPO-2.jpg?impolicy=website&width=222&height=125",
+    "company_name": "Dreamfolks Services Limited",
+    "company_type": "Airline & Aviation Services",
+    "s_date": "Aug 24",
+    "e_date": "Aug 26",
+    "StartDate": "24/08/2021",
+    "EndDate": "26/08/2021",
+    "year": "2022",
+    "min_price": "320",
+    "max_price": "400",
+    "lot_size": "1",
+    "subscriber": "56.23",
+    "description": "check Expected premium on ipo Details page",
+    "expected_premium": "10 -20 (3%) per share",
+    "IpoDetails": [
+      {
+        "Key": "Issue Opens",
+        "Value": "Aug 24, 2021",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Issue Closes",
+        "Value": "Aug 26, 2021",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Allotment Date",
+        "Value": "Aug 26, 2021",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Listing Date",
+        "Value": "Aug 26, 2021",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Face Value",
+        "Value": "₹ 10 Per Equity Share",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Issue Price",
+        "Value": "₹ 400 - ₹ 500 Per Equity Share",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Issue Type",
+        "Value": "Book Built Issue IPO",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Issue Size",
+        "Value": "₹ 1,280.00 Cr",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Market Lot(Min Amount)",
+        "Value": "1 Shares (14,700/-)",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Listing At Group(s)",
+        "Value": "BSE, NSE",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Minimum Order Quantity",
+        "Value": "1 Shares",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Lead Manager",
+        "Value": "Axis Capital, Motilal Oswal, SBI Capital",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Register",
+        "Value": "Link Intime India Private LTd",
+        "Name": "Dreamfolks Services Limited"
+      },
+      {
+        "Key": "Retail Portion",
+        "Value": "10% (Number of Retail Application : 56,570 Approx)",
+        "Name": "Dreamfolks Services Limited"
+      }
+    ],
+    "SubscriptionDetails": [
+      {
+        "Key": "Shares Offered / Reserved",
+        "Value1": "4,752,000",
+        "Value2": "2,376,000",
+        "Value3": "1,584,000",
+        "Value4": "8,712,000"
+      },
+      {
+        "Key": "Day 1 - 24-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 2 - 25-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 3 - 26-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      }
+    ],
+    "Valuations": [
+      {
+        "Key": "Earnings Per Share (EPS)",
+        "Value": "₹ 57.67"
+      },
+      {
+        "Key": "Price to Earnings (P/E)",
+        "Value": "6.96"
+      },
+      {
+        "Key": "Price to Book Value (P/BV)",
+        "Value": "1.00"
+      },
+      {
+        "Key": "Price to Sales (P/S)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Price to Cash Flow (P/CF)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Dividend Yield",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Market Cap",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Enterprise Value",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Net Profit",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Operating Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Free Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "EBITDA",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Debt to Equity",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Return on Equity (ROE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Assets (ROA)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Capital Employed (ROCE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Net Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Operating Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Interest Coverage Ratio",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Net Profit Growth",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Revenue Growth",
+        "Value": "0.00%"
+      }
+    ],
+    "CompanyFinancial": [
+      {
+        "Key": "31-03-2021",
+        "Value1": "52858.49",
+        "Value2": "1,280.00 ",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2020",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2019",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2018",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2017",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      }
+    ],
+    "AboutCompany": "Harsha Engineers International Limited* (HEIL) is promoted by Harsha Group, a leading manufacturer of precision bearing cages in the world. The promoters of the company are Mr. Ramesh Harsha, Mr. Ravi Harsha and Mr. Rajesh Harsha. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company.",
+    "PrePromoters": "N/A%",
+    "PostPromoters": "N/A%",
+    "CPromoters": [
+      {
+        "Key": "Company Promoters",
+        "Value1": "1. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders.\n2. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders."
+      }
+    ],
+    "IssueObjective": [
+      {
+        "Key": "Issue Objectives",
+        "Value": "1. To meet the working capital requirements of the company.",
+        "Value1": "2. To meet the general corporate purposes of the company.",
+        "Value2": "3. To meet the expenses of the issue."
+      }
+    ],
+    "AnchorInvestors": "To meet the working capital\n requirements of the company.",
+    "Disclaimer": "Disclaimer: The information provided on this website is for general information purposes only. The information is provided by www.moneycontrol.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. \n\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of www.moneycontrol.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. \n\nHowever, www.moneycontrol.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.",
+    "Allotment": "https://linkintime.co.in/ipo/public-issues.html"
+  },
+  {
+    "company_img": "https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh",
+    "company_name": "Dreamfolks Services Limited",
+    "company_type": "Airline & Aviation Services",
+    "s_date": "Aug 24",
+    "e_date": "Aug 26",
+    "StartDate": "24/08/2021",
+    "EndDate": "26/08/2021",
+    "year": "2022",
+    "min_price": "320",
+    "max_price": "400",
+    "lot_size": "1",
+    "subscriber": "56.23",
+    "description": "check Expected premium on ipo Details page",
+    "expected_premium": "10 -20 (3%) per share",
+    "IpoDetails": [
+      { "Key": "Issue Opens", "Value": "Aug 24, 2021" },
+      { "Key": "Issue Closes", "Value": "Aug 26, 2021" },
+      { "Key": "Allotment Date", "Value": "Aug 26, 2021" },
+      { "Key": "Listing Date", "Value": "Aug 26, 2021" },
+      { "Key": "Face Value", "Value": "₹ 10 Per Equity Share" },
+      { "Key": "Issue Price", "Value": "₹ 400 - ₹ 500 Per Equity Share" },
+      { "Key": "Issue Type", "Value": "Book Built Issue IPO" },
+      { "Key": "Issue Size", "Value": "₹ 1,280.00 Cr" },
+      { "Key": "Market Lot(Min Amount)", "Value": "1 Shares (14,700/-)" },
+      { "Key": "Listing At Group(s)", "Value": "BSE, NSE" },
+      { "Key": "Minimum Order Quantity", "Value": "1 Shares" },
+      {
+        "Key": "Lead Manager",
+        "Value": "Axis Capital, Motilal Oswal, SBI Capital"
+      },
+      { "Key": "Register", "Value": "Link Intime India Private LTd" },
+      {
+        "Key": "Retail Portion",
+        "Value": "10% (Number of Retail Application : 56,570 Approx)"
+      }
+    ],
+    "SubscriptionDetails": [
+      {
+        "Key": "As on",
+        "Value1": "QIB",
+        "Value2": "NII",
+        "Value3": "RII",
+        "Value4": "Total"
+      },
+      {
+        "Key": "Shares Offered / Reserved",
+        "Value1": "4,752,000",
+        "Value2": "2,376,000",
+        "Value3": "1,584,000",
+        "Value4": "8,712,000"
+      },
+      {
+        "Key": "Day 1 - 24-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 2 - 25-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 3 - 26-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      }
+    ],
+    "Valuations": [
+      {
+        "Key": "Earnings Per Share (EPS)",
+        "Value": "₹ 57.67"
+      },
+      {
+        "Key": "Price to Earnings (P/E)",
+        "Value": "6.96"
+      },
+      {
+        "Key": "Price to Book Value (P/BV)",
+        "Value": "1.00"
+      },
+      {
+        "Key": "Price to Sales (P/S)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Price to Cash Flow (P/CF)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Dividend Yield",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Market Cap",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Enterprise Value",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Net Profit",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Operating Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Free Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "EBITDA",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Debt to Equity",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Return on Equity (ROE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Assets (ROA)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Capital Employed (ROCE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Net Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Operating Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Interest Coverage Ratio",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Net Profit Growth",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Revenue Growth",
+        "Value": "0.00%"
+      }
+    ],
+    "CompanyFinancial": [
+      {
+        "Key": "Time",
+        "Value1": "Total Assets",
+        "Value2": "Total Revalued",
+        "Value3": "Profit After Tax"
+      },
+      {
+        "Key": "31-03-2021",
+        "Value1": "52858.49",
+        "Value2": "1,280.00 ",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2020",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2019",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2018",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2017",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      }
+    ],
+    "AboutCompany": "Harsha Engineers International Limited* (HEIL) is promoted by Harsha Group, a leading manufacturer of precision bearing cages in the world. The promoters of the company are Mr. Ramesh Harsha, Mr. Ravi Harsha and Mr. Rajesh Harsha. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company.",
+    "PrePromoters": "N/A%",
+    "PostPromoters": "N/A%",
+    "CPromoters": [
+      {
+        "Key": "Company Promoters",
+        "Value1": "1. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders.",
+        "Value2": "2. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders."
+      }
+    ],
+    "IssueObjective": [
+      {
+        "Key": "Issue Objectives",
+        "Value": "1. To meet the working capital requirements of the company.",
+        "Value1": "2. To meet the general corporate purposes of the company.",
+        "Value2": "3. To meet the expenses of the issue."
+      }
+    ],
+    "AnchorInvestors": "To meet the working capital\n requirements of the company.",
+    "Disclaimer": "Disclaimer: The information provided on this website is for general information purposes only. The information is provided by www.moneycontrol.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. \n\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of www.moneycontrol.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. \n\nHowever, www.moneycontrol.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
+  },
+  {
+    "company_img": "https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh",
+    "company_name": "Dreamfolks Services Limited",
+    "company_type": "Airline & Aviation Services",
+    "s_date": "Aug 24",
+    "e_date": "Aug 26",
+    "StartDate": "24/08/2021",
+    "EndDate": "26/08/2021",
+    "year": "2022",
+    "min_price": "320",
+    "max_price": "400",
+    "lot_size": "1",
+    "subscriber": "56.23",
+    "description": "check Expected premium on ipo Details page",
+    "expected_premium": "10 -20 (3%) per share",
+    "IpoDetails": [
+      { "Key": "Issue Opens", "Value": "Aug 24, 2021" },
+      { "Key": "Issue Closes", "Value": "Aug 26, 2021" },
+      { "Key": "Allotment Date", "Value": "Aug 26, 2021" },
+      { "Key": "Listing Date", "Value": "Aug 26, 2021" },
+      { "Key": "Face Value", "Value": "₹ 10 Per Equity Share" },
+      { "Key": "Issue Price", "Value": "₹ 400 - ₹ 500 Per Equity Share" },
+      { "Key": "Issue Type", "Value": "Book Built Issue IPO" },
+      { "Key": "Issue Size", "Value": "₹ 1,280.00 Cr" },
+      { "Key": "Market Lot(Min Amount)", "Value": "1 Shares (14,700/-)" },
+      { "Key": "Listing At Group(s)", "Value": "BSE, NSE" },
+      { "Key": "Minimum Order Quantity", "Value": "1 Shares" },
+      {
+        "Key": "Lead Manager",
+        "Value": "Axis Capital, Motilal Oswal, SBI Capital"
+      },
+      { "Key": "Register", "Value": "Link Intime India Private LTd" },
+      {
+        "Key": "Retail Portion",
+        "Value": "10% (Number of Retail Application : 56,570 Approx)"
+      }
+    ],
+    "SubscriptionDetails": [
+      {
+        "Key": "As on",
+        "Value1": "QIB",
+        "Value2": "NII",
+        "Value3": "RII",
+        "Value4": "Total"
+      },
+      {
+        "Key": "Shares Offered / Reserved",
+        "Value1": "4,752,000",
+        "Value2": "2,376,000",
+        "Value3": "1,584,000",
+        "Value4": "8,712,000"
+      },
+      {
+        "Key": "Day 1 - 24-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 2 - 25-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 3 - 26-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      }
+    ],
+    "Valuations": [
+      {
+        "Key": "Earnings Per Share (EPS)",
+        "Value": "₹ 57.67"
+      },
+      {
+        "Key": "Price to Earnings (P/E)",
+        "Value": "6.96"
+      },
+      {
+        "Key": "Price to Book Value (P/BV)",
+        "Value": "1.00"
+      },
+      {
+        "Key": "Price to Sales (P/S)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Price to Cash Flow (P/CF)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Dividend Yield",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Market Cap",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Enterprise Value",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Net Profit",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Operating Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Free Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "EBITDA",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Debt to Equity",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Return on Equity (ROE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Assets (ROA)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Capital Employed (ROCE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Net Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Operating Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Interest Coverage Ratio",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Net Profit Growth",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Revenue Growth",
+        "Value": "0.00%"
+      }
+    ],
+    "CompanyFinancial": [
+      {
+        "Key": "Time",
+        "Value1": "Total Assets",
+        "Value2": "Total Revalued",
+        "Value3": "Profit After Tax"
+      },
+      {
+        "Key": "31-03-2021",
+        "Value1": "52858.49",
+        "Value2": "1,280.00 ",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2020",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2019",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2018",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2017",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      }
+    ],
+    "AboutCompany": "Harsha Engineers International Limited* (HEIL) is promoted by Harsha Group, a leading manufacturer of precision bearing cages in the world. The promoters of the company are Mr. Ramesh Harsha, Mr. Ravi Harsha and Mr. Rajesh Harsha. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company.",
+    "PrePromoters": "N/A%",
+    "PostPromoters": "N/A%",
+    "CPromoters": [
+      {
+        "Key": "Company Promoters",
+        "Value1": "1. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders.",
+        "Value2": "2. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders."
+      }
+    ],
+    "IssueObjective": [
+      {
+        "Key": "Issue Objectives",
+        "Value": "1. To meet the working capital requirements of the company.",
+        "Value1": "2. To meet the general corporate purposes of the company.",
+        "Value2": "3. To meet the expenses of the issue."
+      }
+    ],
+    "AnchorInvestors": "To meet the working capital\n requirements of the company.",
+    "Disclaimer": "Disclaimer: The information provided on this website is for general information purposes only. The information is provided by www.moneycontrol.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. \n\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of www.moneycontrol.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. \n\nHowever, www.moneycontrol.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
+  },
+  {
+    "company_img": "https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh",
+    "company_name": "Dreamfolks Services Limited",
+    "company_type": "Airline & Aviation Services",
+    "s_date": "Aug 24",
+    "e_date": "Aug 26",
+    "StartDate": "24/08/2021",
+    "EndDate": "26/08/2021",
+    "year": "2022",
+    "min_price": "320",
+    "max_price": "400",
+    "lot_size": "1",
+    "subscriber": "56.23",
+    "description": "check Expected premium on ipo Details page",
+    "expected_premium": "10 -20 (3%) per share",
+    "IpoDetails": [
+      { "Key": "Issue Opens", "Value": "Aug 24, 2021" },
+      { "Key": "Issue Closes", "Value": "Aug 26, 2021" },
+      { "Key": "Allotment Date", "Value": "Aug 26, 2021" },
+      { "Key": "Listing Date", "Value": "Aug 26, 2021" },
+      { "Key": "Face Value", "Value": "₹ 10 Per Equity Share" },
+      { "Key": "Issue Price", "Value": "₹ 400 - ₹ 500 Per Equity Share" },
+      { "Key": "Issue Type", "Value": "Book Built Issue IPO" },
+      { "Key": "Issue Size", "Value": "₹ 1,280.00 Cr" },
+      { "Key": "Market Lot(Min Amount)", "Value": "1 Shares (14,700/-)" },
+      { "Key": "Listing At Group(s)", "Value": "BSE, NSE" },
+      { "Key": "Minimum Order Quantity", "Value": "1 Shares" },
+      {
+        "Key": "Lead Manager",
+        "Value": "Axis Capital, Motilal Oswal, SBI Capital"
+      },
+      { "Key": "Register", "Value": "Link Intime India Private LTd" },
+      {
+        "Key": "Retail Portion",
+        "Value": "10% (Number of Retail Application : 56,570 Approx)"
+      }
+    ],
+    "SubscriptionDetails": [
+      {
+        "Key": "As on",
+        "Value1": "QIB",
+        "Value2": "NII",
+        "Value3": "RII",
+        "Value4": "Total"
+      },
+      {
+        "Key": "Shares Offered / Reserved",
+        "Value1": "4,752,000",
+        "Value2": "2,376,000",
+        "Value3": "1,584,000",
+        "Value4": "8,712,000"
+      },
+      {
+        "Key": "Day 1 - 24-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 2 - 25-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 3 - 26-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      }
+    ],
+    "Valuations": [
+      {
+        "Key": "Earnings Per Share (EPS)",
+        "Value": "₹ 57.67"
+      },
+      {
+        "Key": "Price to Earnings (P/E)",
+        "Value": "6.96"
+      },
+      {
+        "Key": "Price to Book Value (P/BV)",
+        "Value": "1.00"
+      },
+      {
+        "Key": "Price to Sales (P/S)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Price to Cash Flow (P/CF)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Dividend Yield",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Market Cap",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Enterprise Value",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Net Profit",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Operating Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Free Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "EBITDA",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Debt to Equity",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Return on Equity (ROE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Assets (ROA)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Capital Employed (ROCE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Net Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Operating Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Interest Coverage Ratio",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Net Profit Growth",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Revenue Growth",
+        "Value": "0.00%"
+      }
+    ],
+    "CompanyFinancial": [
+      {
+        "Key": "Time",
+        "Value1": "Total Assets",
+        "Value2": "Total Revalued",
+        "Value3": "Profit After Tax"
+      },
+      {
+        "Key": "31-03-2021",
+        "Value1": "52858.49",
+        "Value2": "1,280.00 ",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2020",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2019",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2018",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2017",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      }
+    ],
+    "AboutCompany": "Harsha Engineers International Limited* (HEIL) is promoted by Harsha Group, a leading manufacturer of precision bearing cages in the world. The promoters of the company are Mr. Ramesh Harsha, Mr. Ravi Harsha and Mr. Rajesh Harsha. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company.",
+    "PrePromoters": "N/A%",
+    "PostPromoters": "N/A%",
+    "CPromoters": [
+      {
+        "Key": "Company Promoters",
+        "Value1": "1. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders.",
+        "Value2": "2. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders."
+      }
+    ],
+    "IssueObjective": [
+      {
+        "Key": "Issue Objectives",
+        "Value": "1. To meet the working capital requirements of the company.",
+        "Value1": "2. To meet the general corporate purposes of the company.",
+        "Value2": "3. To meet the expenses of the issue."
+      }
+    ],
+    "AnchorInvestors": "To meet the working capital\n requirements of the company.",
+    "Disclaimer": "Disclaimer: The information provided on this website is for general information purposes only. The information is provided by www.moneycontrol.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. \n\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of www.moneycontrol.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. \n\nHowever, www.moneycontrol.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
+  },
+  {
+    "company_img": "https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh",
+    "company_name": "Dreamfolks Services Limited",
+    "company_type": "Airline & Aviation Services",
+    "s_date": "Aug 24",
+    "e_date": "Aug 26",
+    "StartDate": "24/08/2021",
+    "EndDate": "26/08/2021",
+    "year": "2022",
+    "min_price": "320",
+    "max_price": "400",
+    "lot_size": "1",
+    "subscriber": "56.23",
+    "description": "check Expected premium on ipo Details page",
+    "expected_premium": "10 -20 (3%) per share",
+    "IpoDetails": [
+      { "Key": "Issue Opens", "Value": "Aug 24, 2021" },
+      { "Key": "Issue Closes", "Value": "Aug 26, 2021" },
+      { "Key": "Allotment Date", "Value": "Aug 26, 2021" },
+      { "Key": "Listing Date", "Value": "Aug 26, 2021" },
+      { "Key": "Face Value", "Value": "₹ 10 Per Equity Share" },
+      { "Key": "Issue Price", "Value": "₹ 400 - ₹ 500 Per Equity Share" },
+      { "Key": "Issue Type", "Value": "Book Built Issue IPO" },
+      { "Key": "Issue Size", "Value": "₹ 1,280.00 Cr" },
+      { "Key": "Market Lot(Min Amount)", "Value": "1 Shares (14,700/-)" },
+      { "Key": "Listing At Group(s)", "Value": "BSE, NSE" },
+      { "Key": "Minimum Order Quantity", "Value": "1 Shares" },
+      {
+        "Key": "Lead Manager",
+        "Value": "Axis Capital, Motilal Oswal, SBI Capital"
+      },
+      { "Key": "Register", "Value": "Link Intime India Private LTd" },
+      {
+        "Key": "Retail Portion",
+        "Value": "10% (Number of Retail Application : 56,570 Approx)"
+      }
+    ],
+    "SubscriptionDetails": [
+      {
+        "Key": "As on",
+        "Value1": "QIB",
+        "Value2": "NII",
+        "Value3": "RII",
+        "Value4": "Total"
+      },
+      {
+        "Key": "Shares Offered / Reserved",
+        "Value1": "4,752,000",
+        "Value2": "2,376,000",
+        "Value3": "1,584,000",
+        "Value4": "8,712,000"
+      },
+      {
+        "Key": "Day 1 - 24-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 2 - 25-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 3 - 26-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      }
+    ],
+    "Valuations": [
+      {
+        "Key": "Earnings Per Share (EPS)",
+        "Value": "₹ 57.67"
+      },
+      {
+        "Key": "Price to Earnings (P/E)",
+        "Value": "6.96"
+      },
+      {
+        "Key": "Price to Book Value (P/BV)",
+        "Value": "1.00"
+      },
+      {
+        "Key": "Price to Sales (P/S)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Price to Cash Flow (P/CF)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Dividend Yield",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Market Cap",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Enterprise Value",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Net Profit",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Operating Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Free Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "EBITDA",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Debt to Equity",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Return on Equity (ROE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Assets (ROA)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Capital Employed (ROCE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Net Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Operating Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Interest Coverage Ratio",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Net Profit Growth",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Revenue Growth",
+        "Value": "0.00%"
+      }
+    ],
+    "CompanyFinancial": [
+      {
+        "Key": "Time",
+        "Value1": "Total Assets",
+        "Value2": "Total Revalued",
+        "Value3": "Profit After Tax"
+      },
+      {
+        "Key": "31-03-2021",
+        "Value1": "52858.49",
+        "Value2": "1,280.00 ",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2020",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2019",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2018",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2017",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      }
+    ],
+    "AboutCompany": "Harsha Engineers International Limited* (HEIL) is promoted by Harsha Group, a leading manufacturer of precision bearing cages in the world. The promoters of the company are Mr. Ramesh Harsha, Mr. Ravi Harsha and Mr. Rajesh Harsha. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company.",
+    "PrePromoters": "N/A%",
+    "PostPromoters": "N/A%",
+    "CPromoters": [
+      {
+        "Key": "Company Promoters",
+        "Value1": "1. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders.",
+        "Value2": "2. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders."
+      }
+    ],
+    "IssueObjective": [
+      {
+        "Key": "Issue Objectives",
+        "Value": "1. To meet the working capital requirements of the company.",
+        "Value1": "2. To meet the general corporate purposes of the company.",
+        "Value2": "3. To meet the expenses of the issue."
+      }
+    ],
+    "AnchorInvestors": "To meet the working capital\n requirements of the company.",
+    "Disclaimer": "Disclaimer: The information provided on this website is for general information purposes only. The information is provided by www.moneycontrol.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. \n\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of www.moneycontrol.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. \n\nHowever, www.moneycontrol.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
+  },
+  {
+    "company_img": "https://images.moneycontrol.com/images/common/headfoot/logo.png?impolicy=mchigh",
+    "company_name": "Dreamfolks Services Limited",
+    "company_type": "Airline & Aviation Services",
+    "s_date": "Aug 24",
+    "e_date": "Aug 26",
+    "StartDate": "24/08/2021",
+    "EndDate": "26/08/2021",
+    "year": "2022",
+    "min_price": "320",
+    "max_price": "400",
+    "lot_size": "1",
+    "subscriber": "56.23",
+    "description": "check Expected premium on ipo Details page",
+    "expected_premium": "10 -20 (3%) per share",
+    "IpoDetails": [
+      { "Key": "Issue Opens", "Value": "Aug 24, 2021" },
+      { "Key": "Issue Closes", "Value": "Aug 26, 2021" },
+      { "Key": "Allotment Date", "Value": "Aug 26, 2021" },
+      { "Key": "Listing Date", "Value": "Aug 26, 2021" },
+      { "Key": "Face Value", "Value": "₹ 10 Per Equity Share" },
+      { "Key": "Issue Price", "Value": "₹ 400 - ₹ 500 Per Equity Share" },
+      { "Key": "Issue Type", "Value": "Book Built Issue IPO" },
+      { "Key": "Issue Size", "Value": "₹ 1,280.00 Cr" },
+      { "Key": "Market Lot(Min Amount)", "Value": "1 Shares (14,700/-)" },
+      { "Key": "Listing At Group(s)", "Value": "BSE, NSE" },
+      { "Key": "Minimum Order Quantity", "Value": "1 Shares" },
+      {
+        "Key": "Lead Manager",
+        "Value": "Axis Capital, Motilal Oswal, SBI Capital"
+      },
+      { "Key": "Register", "Value": "Link Intime India Private LTd" },
+      {
+        "Key": "Retail Portion",
+        "Value": "10% (Number of Retail Application : 56,570 Approx)"
+      }
+    ],
+    "SubscriptionDetails": [
+      {
+        "Key": "As on",
+        "Value1": "QIB",
+        "Value2": "NII",
+        "Value3": "RII",
+        "Value4": "Total"
+      },
+      {
+        "Key": "Shares Offered / Reserved",
+        "Value1": "4,752,000",
+        "Value2": "2,376,000",
+        "Value3": "1,584,000",
+        "Value4": "8,712,000"
+      },
+      {
+        "Key": "Day 1 - 24-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 2 - 25-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      },
+      {
+        "Key": "Day 3 - 26-08-21 05:00 PM",
+        "Value1": "0.00x",
+        "Value2": "0.00x",
+        "Value3": "0.00x",
+        "Value4": "0.00x"
+      }
+    ],
+    "Valuations": [
+      {
+        "Key": "Earnings Per Share (EPS)",
+        "Value": "₹ 57.67"
+      },
+      {
+        "Key": "Price to Earnings (P/E)",
+        "Value": "6.96"
+      },
+      {
+        "Key": "Price to Book Value (P/BV)",
+        "Value": "1.00"
+      },
+      {
+        "Key": "Price to Sales (P/S)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Price to Cash Flow (P/CF)",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Dividend Yield",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Market Cap",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Enterprise Value",
+        "Value": "₹ 7,280.00 Cr"
+      },
+      {
+        "Key": "Net Profit",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Operating Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Free Cash Flow",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "EBITDA",
+        "Value": "₹ 1,280.00 Cr"
+      },
+      {
+        "Key": "Debt to Equity",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Return on Equity (ROE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Assets (ROA)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Return on Capital Employed (ROCE)",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Net Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Operating Profit Margin",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Interest Coverage Ratio",
+        "Value": "0.00"
+      },
+      {
+        "Key": "Net Profit Growth",
+        "Value": "0.00%"
+      },
+      {
+        "Key": "Revenue Growth",
+        "Value": "0.00%"
+      }
+    ],
+    "CompanyFinancial": [
+      {
+        "Key": "Time",
+        "Value1": "Total Assets",
+        "Value2": "Total Revalued",
+        "Value3": "Profit After Tax"
+      },
+      {
+        "Key": "31-03-2021",
+        "Value1": "52858.49",
+        "Value2": "1,280.00 ",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2020",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2019",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2018",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      },
+      {
+        "Key": "31-03-2017",
+        "Value1": "1,280.00",
+        "Value2": "1,280.00",
+        "Value3": "1,280.00"
+      }
+    ],
+    "AboutCompany": "Harsha Engineers International Limited* (HEIL) is promoted by Harsha Group, a leading manufacturer of precision bearing cages in the world. The promoters of the company are Mr. Ramesh Harsha, Mr. Ravi Harsha and Mr. Rajesh Harsha. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company. Mr. Ramesh Harsha is the Chairman of the company and Mr. Ravi Harsha is the Managing Director of the company. Mr. Rajesh Harsha is the Executive Director of the company.",
+    "PrePromoters": "N/A%",
+    "PostPromoters": "N/A%",
+    "CPromoters": [
+      {
+        "Key": "Company Promoters",
+        "Value1": "1. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders.",
+        "Value2": "2. TMB is a professionally managed bank and does not have any promoter. The bank is owned by the shareholders."
+      }
+    ],
+    "IssueObjective": [
+      {
+        "Key": "Issue Objectives",
+        "Value": "1. To meet the working capital requirements of the company.",
+        "Value1": "2. To meet the general corporate purposes of the company.",
+        "Value2": "3. To meet the expenses of the issue."
+      }
+    ],
+    "AnchorInvestors": "To meet the working capital\n requirements of the company.",
+    "Disclaimer": "Disclaimer: The information provided on this website is for general information purposes only. The information is provided by www.moneycontrol.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. \n\nIn no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. Through this website you are able to link to other websites which are not under the control of www.moneycontrol.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. Every effort is made to keep the website up and running smoothly. \n\nHowever, www.moneycontrol.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.",
+    "Allotment": "https://www.skylinerta.com/ipo.php"
+  }
+]
