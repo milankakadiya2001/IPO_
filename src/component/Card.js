@@ -1,11 +1,19 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import React from "react";
-import { COLORS, SIZES } from "../constant";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import typography, {fontSizes} from "../constant/Typography";
-import { moderateScale } from "../constant/Common";
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import React from 'react';
+import {COLORS, SIZES} from '../constant';
+import typography, {fontSizes} from '../constant/Typography';
+import {moderateScale} from '../constant/Common';
+import {
+  CURRENCYINR,
+  CURRENCYINRCARD,
+  LIVE,
+  LOTSIZE,
+  SUBS,
+  YOUTUBE,
+} from '../assets/svg/index';
+import flex from '../constant/flex';
 
-const Card = (props) => {
+const Card = props => {
   const {
     logo,
     CName,
@@ -29,23 +37,27 @@ const Card = (props) => {
           style={{
             backgroundColor: COLORS.primary,
             opacity: 0.9,
-            position: "absolute",
+            position: 'absolute',
             right: 0,
             top: 0,
             width: moderateScale(55),
             borderBottomLeftRadius: 10,
             borderTopRightRadius: 10,
             padding: 1,
-          }}
-        >
+            ...flex.rowAlign,
+          }}>
+          <LIVE
+            width={moderateScale(20)}
+            height={moderateScale(20)}
+            fill={'white'}
+          />
           <Text
             style={{
               color: COLORS.white,
-              alignSelf: "center",
+              alignSelf: 'center',
               ...typography.fontSizes.f14,
-              fontWeight: "600",
-            }}
-          >
+              fontWeight: '600',
+            }}>
             live
           </Text>
         </View>
@@ -53,61 +65,53 @@ const Card = (props) => {
       <View style={styles.container}>
         <View
           style={{
-            flexDirection: "column",
+            flexDirection: 'column',
             marginLeft: 10,
-            width: "25%",
-            height: "100%",
+            width: '25%',
+            height: '100%',
             // backgroundColor: COLORS.yellow,
-          }}
-        >
+          }}>
           <Image resizeMode="cover" source={logo} style={styles.CompanyLogo} />
         </View>
-        <View style={{ flexDirection: "column", width: "75%" }}>
+        <View style={{flexDirection: 'column', width: '75%'}}>
           <Text numberOfLines={2} style={styles.CompanyName}>
             {CName}
           </Text>
         </View>
       </View>
       <View style={styles.OfferContainer}>
-        
-        <Text style={{...typography.fontSizes.f14,}}>
+        <Text style={{...typography.fontSizes.f14}}>
           Offer Date: {SDate} - {EDate}, {Year}
         </Text>
       </View>
       <View style={styles.DetailContainer}>
         <View style={styles.DetailPrice}>
-          <Text style={styles.PriceHead}>
-            <MaterialCommunityIcons
-              name="currency-inr"
-              size={14}
-              color={COLORS.gray}
-            />
-            Offer Price
-          </Text>
+          <View style={flex.rowAlign}>
+            <CURRENCYINRCARD width={SIZES.cardIcon} height={SIZES.cardIcon} />
+            <Text style={styles.PriceHead}>Offer Price</Text>
+          </View>
           <Text style={styles.Price}>
             {MinPrice}-{MaxPrice}
           </Text>
         </View>
         <View style={styles.DetailPrice}>
-          <Text style={styles.PriceHead}>
-            <MaterialCommunityIcons
-              name="format-line-weight"
-              size={14}
-              color={COLORS.gray}
-            />
-            Lot Size
-          </Text>
+          <View style={flex.rowAlign}>
+            <LOTSIZE width={SIZES.cardIcon} height={SIZES.cardIcon} />
+            <Text style={styles.PriceHead}>Lot Size</Text>
+          </View>
           <Text style={styles.Price}>{Lot}</Text>
         </View>
         <View style={styles.DetailPrice}>
-          <Text style={styles.PriceHead}>
-            <MaterialCommunityIcons
-              name={Status == 0 ? "youtube-subscription" : "currency-inr"}
-              size={14}
-              color={COLORS.gray}
-            />
-            {Status == 0 ? "Subs" : "Closing Price"}
-          </Text>
+          <View style={flex.rowAlign}>
+            <Text style={styles.PriceHead}>
+              {Status == 0 ? (
+                <SUBS width={SIZES.cardIcon} height={SIZES.cardIcon} />
+              ) : (
+                <CURRENCYINR width={SIZES.cardIcon} height={SIZES.cardIcon} />
+              )}
+              {Status == 0 ? 'Subs' : 'Closing Price'}
+            </Text>
+          </View>
           <Text style={styles.Price}>{Status == 0 ? Subs : ClosingPrice}</Text>
         </View>
       </View>
@@ -130,49 +134,48 @@ export default Card;
 const styles = StyleSheet.create({
   root: {
     padding: SIZES.Cheight,
-    alignSelf: "center",
+    alignSelf: 'center',
     marginVertical: SIZES.marginVertical,
-    width: "100%",
+    width: '100%',
     backgroundColor: COLORS.white,
     borderRadius: SIZES.radius,
     borderColor: COLORS.primary,
     borderWidth: 0.2,
-    position: "relative",
-    
+    position: 'relative',
   },
   container: {
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   CompanyLogo: {
-    width: "100%",
+    width: '100%',
     height: 55,
     borderRadius: SIZES.radius,
-    resizeMode: "contain",
+    resizeMode: 'contain',
   },
   CompanyName: {
     color: COLORS.primary,
     marginLeft: SIZES.padding,
-    fontWeight: "700",
+    fontWeight: '700',
     numberOfLines: 2,
     ...typography.fontSizes.f22,
   },
   OfferContainer: {
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
     marginVertical: SIZES.base,
   },
   DetailContainer: {
-    flexDirection: "row",
-    justifyContent: "space-around",
-    alignItems: "center",
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
   },
   DetailPrice: {
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
     marginVertical: SIZES.base,
   },
   PriceHead: {
@@ -181,8 +184,8 @@ const styles = StyleSheet.create({
   },
   AllotmentText: {
     color: COLORS.primary,
-    fontWeight: "800",
-    textAlign: "center",
+    fontWeight: '800',
+    textAlign: 'center',
     marginTop: SIZES.base,
     ...typography.fontSizes.f14,
   },

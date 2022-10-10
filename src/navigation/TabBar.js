@@ -1,11 +1,21 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { StackRoute } from "./NavigationRoutes";
-import { TabNav } from "./NavigationKeys";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import { COLORS, SIZES } from "../constant";
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {StackRoute} from './NavigationRoutes';
+import {TabNav} from './NavigationKeys';
+import {COLORS, SIZES} from '../constant';
+import {
+  MAINLINE,
+  MAINLINEHIGHLIGHT,
+  NEWS,
+  NEWSHIGHLIGHT,
+  OFFER,
+  OFFERHIGHLIGHT,
+  SME,
+  SMEHIGHLIGHT,
+} from '../assets/svg';
+import {moderateScale} from '../constant/Common';
 
 const Tab = createBottomTabNavigator();
 
@@ -13,89 +23,83 @@ const TabBar = () => {
   return (
     <Tab.Navigator
       initialRouteName={TabNav.MainlineIpo}
-      screenOptions={({ route }) => ({
+      screenOptions={({route}) => ({
         headerShown: false,
-        tabBarIcon: ({ focused, color, size }) => {
-          let iconName;
-
-          if (route.name === TabNav.MainlineIpo) {
-            iconName = focused ? "chart-box" : "chart-box-outline";
-          } else if (route.name === TabNav.SmeIpo) {
-            iconName = focused ? "chart-line-stacked" : "chart-line";
-          } else if (route.name === TabNav.Offer) {
-            iconName = focused ? "file-chart" : "file-chart-outline";
-          } else if (route.name === TabNav.IpoNews) {
-            iconName = focused ? "tag-text" : "tag-text-outline";
-          }
-          return (
-            <MaterialCommunityIcons name={iconName} size={size} color={color} />
-          );
-        },
-      })}
-      tabBarOptions={{
-        activeTintColor: COLORS.primary,
-        inactiveTintColor: COLORS.secondary,
-        labelStyle: { fontSize: 12, fontWeight: "bold" },
-      }}
-    >
+        tabBarShowLabel: false,
+      })}>
       <Tab.Screen
         name={TabNav.MainlineIpo}
         component={StackRoute.MainlineIpo}
         options={{
-          title: "Mainline Ipo",
-          headerStyle: {
-            backgroundColor: COLORS.primary,
-          },
-          headerTintColor: COLORS.white,
-          headerTitleStyle: {
-            fontWeight: "bold",
-            fontSize: SIZES.h3,
-          },
+          tabBarIcon: ({focused}) =>
+            focused ? (
+              <View style={styles.tabBarIcon}>
+                <MAINLINE width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarTextHighlight}>Mainline IPO</Text>
+              </View>
+            ) : (
+              <View style={styles.tabBarIcon}>
+                <MAINLINEHIGHLIGHT
+                  width={SIZES.tabIcon}
+                  height={SIZES.tabIcon}
+                />
+                <Text style={styles.tabBarText}>Mainline IPO</Text>
+              </View>
+            ),
         }}
       />
       <Tab.Screen
         name={TabNav.SmeIpo}
         component={StackRoute.SmeIpo}
         options={{
-          title: "Sme Ipo",
-          headerStyle: {
-            backgroundColor: COLORS.primary,
-          },
-          headerTintColor: COLORS.white,
-          headerTitleStyle: {
-            fontWeight: "bold",
-            fontSize: SIZES.h3,
-          },
+          tabBarIcon: ({focused}) =>
+            focused ? (
+              <View style={styles.tabBarIcon}>
+                <SMEHIGHLIGHT width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarTextHighlight}>Sme IPO</Text>
+              </View>
+            ) : (
+              <View style={styles.tabBarIcon}>
+                <SME width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarText}>Sme IPO</Text>
+              </View>
+            ),
         }}
       />
       <Tab.Screen
         name={TabNav.IpoNews}
         component={StackRoute.IpoNews}
         options={{
-          title: "News",
-          headerStyle: {
-            backgroundColor: COLORS.primary,
-          },
-          headerTintColor: COLORS.white,
-          headerTitleStyle: {
-            fontWeight: "bold",
-            fontSize: SIZES.h3,
-          },
+          tabBarIcon: ({focused}) =>
+            focused ? (
+              <View style={styles.tabBarIcon}>
+                <NEWS width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarTextHighlight}>News</Text>
+              </View>
+            ) : (
+              <View style={styles.tabBarIcon}>
+                <NEWSHIGHLIGHT width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarText}>News</Text>
+              </View>
+            ),
         }}
       />
       <Tab.Screen
         name={TabNav.Offer}
         component={StackRoute.Offer}
         options={{
-          title: "Offer",
-          headerStyle: {
-            backgroundColor: COLORS.primary,
-          },
-          headerTintColor: COLORS.white,
-          headerTitleStyle: {
-            fontWeight: "bold",
-            fontSize: SIZES.h3,
-          },
+          tabBarIcon: ({focused}) =>
+            focused ? (
+              <View style={styles.tabBarIcon}>
+                <OFFER width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarTextHighlight}>Offer</Text>
+              </View>
+            ) : (
+              <View style={styles.tabBarIcon}>
+                <OFFERHIGHLIGHT width={SIZES.tabIcon} height={SIZES.tabIcon} />
+                <Text style={styles.tabBarText}>Offer</Text>
+              </View>
+            ),
         }}
       />
     </Tab.Navigator>
@@ -104,4 +108,19 @@ const TabBar = () => {
 
 export default TabBar;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  tabBarIcon: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  tabBarText: {
+    fontSize: moderateScale(14),
+    color: COLORS.black,
+    fontWeight: 'bold',
+  },
+  tabBarTextHighlight: {
+    fontSize: moderateScale(14),
+    color: COLORS.primary,
+    fontWeight: 'bold',
+  },
+});

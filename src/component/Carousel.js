@@ -1,16 +1,18 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 import Swiper from 'react-native-swiper';
-import { COLORS } from '../constant';
+import {COLORS} from '../constant';
+import {Lotsize} from '../assets/svg';
+import Svg, {Use, Image} from 'react-native-svg';
 
 const Carousel = () => {
   return (
-    <Swiper style={styles.wrapper} 
-    autoplay={true}
-    loop={true}
-    activeDotColor={COLORS.primary}
-    dotStyle={{marginBottom: 10}}
-    >
+    <Swiper
+      style={styles.wrapper}
+      autoplay={true}
+      loop={true}
+      activeDotColor={COLORS.primary}
+      dotStyle={{marginBottom: 10}}>
       <View style={styles.slide1}>
         <Text style={styles.text}>Hello Swiper</Text>
       </View>
@@ -22,9 +24,9 @@ const Carousel = () => {
       </View>
     </Swiper>
   );
-}
+};
 
-export default Carousel
+export default Carousel;
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -32,25 +34,25 @@ const styles = StyleSheet.create({
   },
   slide1: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#9DD6EB",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#9DD6EB',
   },
   slide2: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#97CAE5",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#97CAE5',
   },
   slide3: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#92BBD9",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#92BBD9',
   },
   text: {
-    color: "#fff",
+    color: '#fff',
     fontSize: 30,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
 });

@@ -7,21 +7,21 @@ import {
   Image,
   Share,
   Linking,
-} from "react-native";
-import React from "react";
+} from 'react-native';
+import React from 'react';
 import {
   createDrawerNavigator,
   DrawerContentScrollView,
-} from "@react-navigation/drawer";
-import { StackRoute } from "./NavigationRoutes";
-import { StackNav, TabNav } from "./NavigationKeys";
-import { COLORS, Images, SIZES } from "../constant";
-import Break from "../component/Break";
-import DrawerBtn from "../component/DrawerBtn";
-import Regulation from "../Data/Regulation.json";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import { moderateScale } from "../constant/Common";
-import typography from "../constant/Typography";
+} from '@react-navigation/drawer';
+import {StackRoute} from './NavigationRoutes';
+import {StackNav, TabNav} from './NavigationKeys';
+import {COLORS, Images, SIZES} from '../constant';
+import Break from '../component/Break';
+import DrawerBtn from '../component/DrawerBtn';
+import Regulation from '../Data/Regulation.json';
+import {moderateScale} from '../constant/Common';
+import typography from '../constant/Typography';
+import {FACEBOOK, INSTAGRAM, TWITTER, YOUTUBE} from '../assets/svg';
 
 const Drawer = createDrawerNavigator();
 
@@ -31,7 +31,7 @@ function DrawerView(navigation) {
     try {
       const result = await Share.share({
         message:
-          "React Native | A framework for building native apps using React",
+          'React Native | A framework for building native apps using React',
       });
       if (result.action === Share.sharedAction) {
         if (result.activityType) {
@@ -47,22 +47,21 @@ function DrawerView(navigation) {
     }
   };
   const PricayPolicy = () => {
-    Back.navigate(StackNav.DScreen, { item: Regulation[0] });
+    Back.navigate(StackNav.DScreen, {item: Regulation[0]});
   };
   const TermsOfUse = () => {
-    Back.navigate(StackNav.DScreen, { item: Regulation[1] });
+    Back.navigate(StackNav.DScreen, {item: Regulation[1]});
   };
 
   return (
     // <SafeAreaView style={styles.topSafeArea} />
     // <SafeAreaView style={styles.topSafeArea}>
-    <View style={{ flex: 1 }}>
+    <View style={{flex: 1}}>
       <DrawerContentScrollView>
         <ImageBackground
           resizeMode="cover"
           source={Images.DrawerBg}
-          style={styles.img}
-        >
+          style={styles.img}>
           <View style={styles.container}>
             <Image source={Images.User} style={styles.user} />
             <Text style={styles.text}>Hello Investor!</Text>
@@ -75,7 +74,7 @@ function DrawerView(navigation) {
             onPress={() => Back.navigate(TabNav.TabBar)}
           />
           <Break />
-          <View style={{ marginVertical: 10 }}>
+          <View style={{marginVertical: 10}}>
             <DrawerBtn
               Head="Share with Friends"
               name="share-variant"
@@ -87,14 +86,14 @@ function DrawerView(navigation) {
               name="card-account-mail"
               onPress={() =>
                 Linking.openURL(
-                  "mailto:support@example.com?subject=SendMail&body=Description"
+                  'mailto:support@example.com?subject=SendMail&body=Description',
                 )
               }
               title="support@example.com"
             />
           </View>
           <Break />
-          <View style={{ marginVertical: 10 }}>
+          <View style={{marginVertical: 10}}>
             <DrawerBtn
               Head="Privacy Policy"
               name="cloud-print"
@@ -110,30 +109,13 @@ function DrawerView(navigation) {
           <View
             style={{
               marginVertical: 20,
-              flexDirection: "row",
-              justifyContent: "space-evenly",
-            }}
-          >
-            <MaterialCommunityIcons
-              name="instagram"
-              size={30}
-              color={COLORS.primary}
-            />
-            <MaterialCommunityIcons
-              name="facebook"
-              size={30}
-              color={COLORS.primary}
-            />
-            <MaterialCommunityIcons
-              name="twitter"
-              size={30}
-              color={COLORS.primary}
-            />
-            <MaterialCommunityIcons
-              name="youtube"
-              size={30}
-              color={COLORS.primary}
-            />
+              flexDirection: 'row',
+              justifyContent: 'space-evenly',
+            }}>
+            <INSTAGRAM width={moderateScale(30)} height={moderateScale(30)} />
+            <FACEBOOK width={moderateScale(30)} height={moderateScale(30)} />
+            <TWITTER width={moderateScale(30)} height={moderateScale(30)} />
+            <YOUTUBE width={moderateScale(30)} height={moderateScale(30)} />
           </View>
         </View>
       </DrawerContentScrollView>
@@ -141,17 +123,16 @@ function DrawerView(navigation) {
   );
 }
 
-const MyDrawer = (navigation) => {
+const MyDrawer = navigation => {
   return (
     <Drawer.Navigator
       initialRouteName={TabNav.TabBar}
       screenOptions={{
         headerShown: false,
-      }}  
-      drawerContent={(props) => (
+      }}
+      drawerContent={props => (
         <DrawerView {...props} navigation={navigation} />
-      )}
-    >
+      )}>
       {/* <Drawer.Screen name={StackNav.DHeader} component={StackRoute.DHeader} /> */}
       <Drawer.Screen name={TabNav.TabBar} component={StackRoute.TabBar} />
     </Drawer.Navigator>
@@ -162,19 +143,19 @@ export default MyDrawer;
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
+    position: 'absolute',
     left: moderateScale(20),
     bottom: moderateScale(20),
   },
   text: {
     color: COLORS.white,
-    fontWeight: "500",
+    fontWeight: '500',
     marginTop: 5,
     ...typography.fontSizes.f18,
   },
   img: {
     height: moderateScale(210),
-    width: "100%",
+    width: '100%',
   },
   user: {
     height: 85,

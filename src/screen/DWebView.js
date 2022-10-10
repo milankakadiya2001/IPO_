@@ -1,37 +1,36 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
-import React from 'react'
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import React from 'react';
 import WebView from 'react-native-webview';
-import { COLORS, SIZES } from '../constant';
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import {COLORS, SIZES} from '../constant';
 import flex from '../constant/flex';
-import { moderateScale } from '../constant/Common';
+import {moderateScale} from '../constant/Common';
+import {BACK} from '../assets/svg';
 
 const DWebView = ({navigation, route}) => {
   console.log('====================================');
-  console.log("Webbbb" ,navigation);
+  console.log('Webbbb', navigation);
   console.log('====================================');
-    const link = route.params.item;
-    var obj = link.reduce(function (link, cur, i) {
-      link[i] = cur;
-      return link;
-    }, {});
+  const link = route.params.item;
+  var obj = link.reduce(function (link, cur, i) {
+    link[i] = cur;
+    return link;
+  }, {});
 
   const url = obj[0].url;
-    
+
   console.log('====================================');
-  console.log(" url ==>", url);
+  console.log(' url ==>', url);
   console.log('====================================');
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{flex: 1}}>
       <View style={styles.root}>
         <TouchableOpacity
           // style={{ marginRight: 20 }}
-          onPress={() => navigation.goBack()}
-        >
-          <MaterialCommunityIcons
-            name="keyboard-backspace"
-            size={20}
-            color={COLORS.white}
+          onPress={() => navigation.goBack()}>
+          <BACK
+            width={moderateScale(20)}
+            height={moderateScale(20)}
+            fill={'white'}
           />
         </TouchableOpacity>
 
@@ -40,17 +39,16 @@ const DWebView = ({navigation, route}) => {
           style={{
             color: COLORS.white,
             fontSize: SIZES.h4,
-            fontWeight: "600",
+            fontWeight: '600',
             letterSpacing: 1,
-          }}
-        >
+          }}>
           News
         </Text>
         <View></View>
       </View>
       <WebView
-        source={{ uri: url }}
-        originWhitelist={["*"]}
+        source={{uri: url}}
+        originWhitelist={['*']}
         // style={{ marginTop: 20 }}
         javaScriptEnabled={true}
         domStorageEnabled={true}
@@ -65,8 +63,8 @@ const DWebView = ({navigation, route}) => {
         allowsInlineMediaPlayback={true}
         // injectedJavaScript={INJECTED_SCRIPTS}
         cacheEnabled
-        onShouldStartLoadWithRequest={(req) => {
-          if (req.url.startsWith("about")) {
+        onShouldStartLoadWithRequest={req => {
+          if (req.url.startsWith('about')) {
             return false;
           }
           return true;
@@ -76,9 +74,9 @@ const DWebView = ({navigation, route}) => {
       />
     </View>
   );
-}
+};
 
-export default DWebView
+export default DWebView;
 
 const styles = StyleSheet.create({
   root: {
